@@ -1,0 +1,161 @@
+body{
+    background-color: #f9f9f9;
+
+/* background: linear-gradient( #42d1f4, #00ffa1); */
+
+}
+
+h3{
+  color: grey;
+  font-size: 20px;
+  text-align:center;
+
+
+}
+
+#logo{
+
+  height: 50px;
+  width: auto;
+}
+
+.top{
+
+  margin-left: 450px;
+  border: 1px solid #e3e4e5;
+  background-color: white;
+  width: 400px;
+  height: 550px;
+  padding: 20px;
+
+}
+
+.lineseparate{
+  height:1px;
+  background:#717171;
+  border-bottom:1px solid #e3e4e5;
+}
+
+.inp{
+  width: 340px;
+  border: 1px solid #e2e2e2;
+  border-radius: 1px;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+
+#p1{
+  color: #a5a5a5;
+}
+
+#p2{
+  border: 1px solid #e3e4e5;
+  background-color: white;
+  width: 440px;
+  height: auto;
+  padding-top:20px;
+  padding-bottom: 20px;
+  margin-left: 450px;
+  text-align: center;
+}
+
+#b1{
+  position: relative;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+
+
+  transition-duration: 0.2s;
+  width: 360px;
+  font-size: 17px;
+  border: none;
+  border-radius: 3px;
+  background-color: #4a95f9;
+  color: white;
+  padding: 10px 20px;
+}
+
+#b1:after{
+  content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.5s
+}
+
+#b1:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+#b1:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: green;
+  cursor: pointer;
+
+}
+
+#one{
+  border: none;
+}
+
+#li{
+  color: #b7b7b7;
+  border: 1px solid grey;
+
+}
+
+a{
+  color: blue;
+  text-decoration: none;
+}
+
+#or1{
+  position:relative;
+  top: -10px;
+  display: inline-block;
+  width: 20px;
+  color: #8c8b8b;
+  margin: 10px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+#or{
+  border-top: 1px solid #8c8b8b;
+  width: 155px;
+  margin-top: 25px;
+  display: inline-block;
+}
+
+
+
+
+#SignUp{
+  width: 350px;
+  font-size: 17px;
+  border: none;
+  border-radius: 3px;
+  background-color: #4a95f9;
+  color: white;
+  padding: 10px 20px;
+}
+
+#ard1{
+  height: 50px;
+  width: auto;
+  margin-left: 500px;
+}
+#ard2{
+  height: 50px;
+  width: auto;
+  margin-left: 10px;
+}
